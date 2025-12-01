@@ -12,6 +12,8 @@ public class CurriculoBuilder {
     public CurriculoBuilder endereco(String endereco) {curriculo.setNome(endereco); return this; }
     public CurriculoBuilder telefone(String telefone) {curriculo.setNome(telefone); return this; }
     public CurriculoBuilder dataNascimento(LocalDateTime data) { curriculo.setDataNascimento(LocalDate.from(data)); return this; }
-    public CurriculoBuilder addSecao(Secao s) {curriculo.getSecao().add(s); return this; }
+    public CurriculoBuilder addExperiencia(Experiencia e) {curriculo.getExperiencia().add(e); return this; }
+    public CurriculoBuilder addFormacao(Formacao f) {curriculo.getFormacao().add(f); return this; }
+    public CurriculoBuilder addHabilidades(Habilidades h) {curriculo.getHabilidades().add(h); return this; }
     public Curriculo build() { return curriculo; }
 }

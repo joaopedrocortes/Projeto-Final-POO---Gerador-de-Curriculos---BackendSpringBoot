@@ -1,6 +1,6 @@
 package curriculo;
 
-public class SecaoHabilidades extends Secao{
+public class Habilidades {
     private String habilidade;
     private String softwares;
 

@@ -7,7 +7,9 @@ import java.util.List;
 public class Curriculo {
     private String nome;
     private String email;
-    private List<Secao> secao = new ArrayList<>();
+    private List<Experiencia> experiencia = new ArrayList<>();
+    private List<Formacao> formacao = new ArrayList<>();
+    private List<Habilidades> habilidade = new ArrayList<>();
     private CurriculoStatus status;
     private String cpf;
     private String endereco;
@@ -63,12 +65,28 @@ public class Curriculo {
         this.dataNascimento = data;
     }
 
-    public List<Secao> getSecao() {
-        return this.secao;
+    public List<Experiencia> getExperiencia() {
+        return this.experiencia;
     }
 
-    public void setSecao(List<Secao> secao) {
-        this.secao = secao;
+    public void setExperiencia(List<Experiencia> experiencia) {
+        this.experiencia = experiencia;
+    }
+
+    public List<Formacao> getFormacao() {
+        return this.formacao;
+    }
+
+    public void setFormacao(List<Formacao> formacao) {
+        this.formacao = formacao;
+    }
+
+    public List<Habilidades> getHabilidades() {
+        return this.habilidade;
+    }
+
+    public void setHabilidades(List<Habilidades> habilidade) {
+        this.habilidade = habilidade;
     }
 
     public CurriculoStatus getStatus() {

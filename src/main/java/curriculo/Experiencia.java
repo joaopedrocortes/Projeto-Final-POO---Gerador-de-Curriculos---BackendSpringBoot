@@ -1,6 +1,6 @@
 package curriculo;
 
-public class SecaoExperiencia extends Secao{
+public class Experiencia {
     private String descricao;
     private String empresa;
     private String cargo;
