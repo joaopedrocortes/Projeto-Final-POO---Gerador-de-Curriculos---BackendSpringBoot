@@ -1,5 +1,5 @@
 package curriculo;
 
 public enum CurriculoStatus {
-    RASCUNHO, PUBLICADO
+    RASCUNHO, PUBLICADO, ARQUIVADO
 }

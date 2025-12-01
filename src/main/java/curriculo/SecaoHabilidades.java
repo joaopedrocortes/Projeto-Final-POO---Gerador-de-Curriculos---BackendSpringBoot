@@ -5,9 +5,6 @@ public class SecaoHabilidades extends Secao{
     private String nivel;
     private String qualidades;
 
-    public SecaoHabilidades() {
-
-    }
 
     public String getHabilidade() {
         return this.habilidade;

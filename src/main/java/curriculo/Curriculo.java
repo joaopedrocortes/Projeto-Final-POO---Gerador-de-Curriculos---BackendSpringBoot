@@ -14,9 +14,6 @@ public class Curriculo {
     private LocalDate dataNascimento;
     private String telefone;
 
-    public Curriculo() {
-
-    }
 
     public String getNome() {
         return this.nome;

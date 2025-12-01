@@ -1,13 +1,10 @@
 package curriculo;
 
-public class SecaoEducacao extends Secao{
+public class SecaoFormacao extends Secao{
     private String instituicao;
-    private String grau;
+    private String curso;
     private String formacaoAcademica;
 
-    public SecaoEducacao() {
-
-    }
 
     public String getInstituicao() {
         return this.instituicao;
@@ -17,19 +14,19 @@ public class SecaoEducacao extends Secao{
         this.instituicao = instituicao;
     }
 
-    public String getGrau() {
-        return this.grau;
+    public String getCurso() {
+        return this.curso;
     }
 
-    public void setGrau() {
-        this.grau = grau;
+    public void setGrau(String curso) {
+        this.curso = curso;
     }
 
     public String getFormacaoAcademica() {
         return this.formacaoAcademica;
     }
 
-    public void setFormacaoAcademica() {
+    public void setFormacaoAcademica(String formacaoAcademica) {
         this.formacaoAcademica = formacaoAcademica;
     }
 
