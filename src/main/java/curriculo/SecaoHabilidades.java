@@ -5,6 +5,32 @@ public class SecaoHabilidades extends Secao{
     private String nivel;
     private String qualidades;
 
+    public SecaoHabilidades() {
 
+    }
+
+    public String getHabilidade() {
+        return this.habilidade;
+    }
+
+    public void setHabilidade(String habilidade) {
+        this.habilidade = habilidade;
+    }
+
+    public String getNivel() {
+        return this.nivel;
+    }
+
+    public void setNivel(String nivel) {
+        this.nivel = nivel;
+    }
+
+    public String getQualidades() {
+        return this.qualidades;
+    }
+
+    public void setQualidades() {
+        this.qualidades = qualidades;
+    }
 
 }

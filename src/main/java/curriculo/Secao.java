@@ -1,6 +1,6 @@
 package curriculo;
 
-public class Secao {
+public abstract class Secao {
     private String nome;
 
 
