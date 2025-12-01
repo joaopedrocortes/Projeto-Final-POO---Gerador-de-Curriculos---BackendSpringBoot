@@ -2,8 +2,7 @@ package curriculo;
 
 public class SecaoHabilidades extends Secao{
     private String habilidade;
-    private String nivel;
-    private String qualidades;
+    private String softwares;
 
 
     public String getHabilidade() {
@@ -14,20 +13,12 @@ public class SecaoHabilidades extends Secao{
         this.habilidade = habilidade;
     }
 
-    public String getNivel() {
-        return this.nivel;
+    public String getSoftwares() {
+        return this.softwares;
     }
 
-    public void setNivel(String nivel) {
-        this.nivel = nivel;
-    }
-
-    public String getQualidades() {
-        return this.qualidades;
-    }
-
-    public void setQualidades() {
-        this.qualidades = qualidades;
+    public void setSoftwares(String softwares) {
+        this.softwares = softwares;
     }
 
 }

@@ -18,7 +18,7 @@ public class SecaoFormacao extends Secao{
         return this.curso;
     }
 
-    public void setGrau(String curso) {
+    public void setCursos(String curso) {
         this.curso = curso;
     }
 
