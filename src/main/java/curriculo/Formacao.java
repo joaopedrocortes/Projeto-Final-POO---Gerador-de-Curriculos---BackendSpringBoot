@@ -18,7 +18,7 @@ public class Formacao {
         return this.curso;
     }
 
-    public void setCursos(String curso) {
+    public void setCurso(String curso) {
         this.curso = curso;
     }
 
