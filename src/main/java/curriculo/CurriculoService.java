@@ -36,8 +36,8 @@ public class CurriculoService {
             contato.setAlignment(Element.ALIGN_CENTER);
             document.add(contato);
 
-            document.add(new Paragraph(" ")); // Pular linha
-            document.add(new LineSeparator()); // Linha horizontal
+            document.add(new Paragraph(" "));
+            document.add(new LineSeparator());
             document.add(new Paragraph(" "));
 
 
